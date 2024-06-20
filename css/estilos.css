@@ -199,16 +199,13 @@ main section#Frescura\ auditiva video {
 }
 
 #carouselExampleCaptions {
-  margin-top: 40px;
+  margin-top: 90px;
 }
 #carouselExampleCaptions .carousel-item img {
-  max-width: 100%;
+  max-width: 50%;
+  max-height: 20%;
   height: auto;
-}
-#carouselExampleCaptions .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding: 10px;
+  margin: 0 auto;
 }
 
 @keyframes fadeIn {
@@ -311,6 +308,10 @@ p {
   margin-left: 30px;
 }
 
+h5 {
+  color: black;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -386,6 +387,10 @@ form {
 .footer .row.text-center .copy-col-12 {
   text-align: center;
   margin-bottom: 20px;
+}
+
+h5 {
+  color: whitesmoke;
 }
 
 @media only screen and (max-width: 500px) {
